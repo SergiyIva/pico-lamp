@@ -4,6 +4,6 @@ services:
     build:
       context: .
     ports:
-      - "7777"
+      - "7777:7777"
     env_file:
       .env
