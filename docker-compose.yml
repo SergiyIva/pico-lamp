@@ -1,0 +1,9 @@
+services:
+  pico-lamp:
+    restart: always
+    build:
+      context: .
+    ports:
+      - "7777"
+    env_file:
+      .env
